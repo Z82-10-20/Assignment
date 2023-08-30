@@ -3,79 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
-    <link rel="stylesheet" href="style.css"> 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #e7f0f8;
-            margin: 0;
-            padding: 0;
-        }
-        
-        header {
-            background-color: #7fa4f3;
-            color: #1b1a1a;
-            padding: 10px 0px;
-            text-align: center;
-        }
-        
-        nav {
-            background-color: #a89e9e;
-            padding: 10px;
-            text-align: center;
-        }
-        
-        nav a {
-            color: #f1e4e4;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        
-        section {
-            padding: 20px;
-        }
-        
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-        </style>
-</head>
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css"
+    </head>
 <body>
+<!-- Welcome Header -->
+
     <header>
-        <h1>Welcome to My Web Page</h1>
+
+        <h1>Welcome to Zakfran's website,</h1><h1 class="header1">where I embark on the journey of becoming the next web developer.
+        </h1>
+      
+            </head>
+            <body>
+            
+            <div class="navbar">
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#portfolio">Portfolio</a>
+              <a href="#contact">Contact</a>
+            </div>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Me</a>
-        <a href="service.html">My Services</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    <section>
-        <ul>
-        <li><h2><a href="about.html">About Me</a></h2></li>
-        </ul>
-        <img src="https://media.licdn.com/dms/image/D5603AQGvCkWqeURCHw/profile-displayphoto-shrink_400_400/0/1692854674940?e=1698278400&v=beta&t=YRPhJXXeZNIN3c-K2NxD9Lm7v-Dd9rGnWTNDJi4ifLQ" alt="Myself" width="150">
-        <p><em><strong>Hello, I'm Zakfran.</strong> In my free time, I spend my time designing web pages with graphic design and content writing.</em></p>
-       <ul>
-       <li><h2><a href="service.html"> My Services</a></h2></li>
-        </ul>
-        <p>I provide the following services:</p>
-        <ol>
-            <li><h3>Web Design</h3></li>
-            <li><h3>Graphic Design</h3></li>
-            <li><h3>Content Writing</h3></li>
-        </ol>
-        <ul>
-        <li><h2><a href="contact.html">Contact</a> ⟵Click here!!</h2></li>
-        </ul>
-        <p> Do not hesitate to contact me via contact link above, thanks. </p>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img class="me" src="images/me.png" alt="me.png">
+        <p id="p1">
+           <em><strong>Hi, my name is Zakfran.</strong>. I work as a process technician at <a href="https://www.shell.com.sg/" >Shell Singapore Pte Ltd. </a> In my free time, I like to spend time on the computer, drawing inspiration from web developers on how to create websites.
+            
+            I have a few inspirational portfolios that I may want to follow for my final web development project. I have provided themes with included pictures. Below are some suggestions brought to me: </em></p>
     </section>
+
+        <!-- Portfolio Section -->
+         <section id="portfolio">
+        <h2>Portfolio</h2>
+        <h3 id="title1">Project 1 - Restaurant Website</h3>
+        <div class="project1">
+        <table class="restaurant-img">
+            
+         <tr>
+            <td><img src="images\restaurant-img\11-ruby-tuesday-menu-photos.png" alt="Project 1"></td>
+            <td><img src="images\restaurant-img\60106Antons.png" alt="Project 1"></td>
+            <td><img src="images\restaurant-img\italian-restaurant-website.png" alt="Project 1"></td>
+           
+         </tr>
+        </table>
+       
+         <p id="p2">Creating the "best" restaurant website page can depend on various factors, including the restaurant's theme, cuisine, and branding.  With a basic example of a modern and visually appealing restaurant website layout tailored to the restaurant's unique style and specific needs, i may want to begin by crafting a compelling online presence that resonates with the target audience.</p>
+        </div>
+    </section >
+    
+<!-- Portfolio2 Section -->
+      
+<section class="portfolio2">
+          
+        <div class="project2">
+            <h3>Project 2 - Launching a new Product</h3>
+             <p ><div class="project2">  <img src="images\newproduct-img\coming-soon-tut-preview.png" alt="Project2">
+         <img src="images\newproduct-img\macbook.png" alt="Project2">
+        </div>
+                       
+                Creating a launch website for a product is a great way to generate excitement and anticipation among your target audience. Here's a basic outline of the elements you should consider including on your product launch website
+                the design and content of your product launch website should align with your brand's identity and the product's value proposition. Keep the design clean, easy to navigate, and mobile-responsive for a seamless user experience across different devices.</p>
+    </section>
+
+<!-- Portfolio3 Section -->
+    <section id="portfolio3">
+        <div class="project3">
+            <h3>Project 3 - Newly opening company</h3>
+
+            <table>
+              <tr>      
+                    <td> <img src="images\newcompany-img\images.png" alt="Project 3"></td> 
+               <td> <img src="images\newcompany-img\download.png" alt="Project 3"></td> 
+              </tr>
+            </table>
+            <p id="p3">Creating a new company launch website involves defining the website's purpose and target audience. The website's design and content are carefully planned to align with the company's branding. Development takes place using appropriate technologies, ensuring responsiveness and user-friendliness across devices. After thorough testing, the website is launched, and its promotion begins through various marketing channels to reach the intended audience. Continuous monitoring and updates ensure the website remains effective in conveying the company's message and achieving its goals.</p>
+        </div>
+    </section>
+
+
+    
+    <!-- Contact -->
+    <section id="contact">
+      
+<h2>Contact Me if you can give me more suggestions</h2>
+<p>Address: Blk 31 Eunos Crescent</p>
+<p>Email: zakfran82abu@gmail.com</p>
+<p>Contact Number: +6597814620</p>
+<div class="contact" >
+<form action="mailto:zakfran82abu@gmail.com" method="post">
+<label>Your Name</label>
+<input type="text"><br>
+<label>Your Email</label>
+<input type="text"><br>
+<label>Your Messages</label><br>
+<textarea name="YourMessage" id="" cols="30" rows="10"></textarea><br>
+<input type="submit">
+</div>
+</section>
 </body>
 </html>
+
+
+
